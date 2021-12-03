@@ -1,5 +1,5 @@
-import { Component } from 'react';
-
+import React, { Component } from 'react';
+import Header from '../components/Header';
 class Home extends Component {
     constructor(props) {
         super(props);
@@ -7,17 +7,14 @@ class Home extends Component {
             
          }
     }
-
     render() { 
         return ( 
-            <>
-                <header >
-                    <div>
-                        <h1>Home</h1>
-                        
-                    </div>
-                </header>
-            </>
+         
+                <React.Fragment>
+                   
+                        <Header />
+                   
+                </React.Fragment>
          );
     }
 }
