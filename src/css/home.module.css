@@ -1,0 +1,19 @@
+header {
+  background-color: #f5f5f5;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+.one {
+  background-color: lightgreen;
+  min-height: 60vh;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
